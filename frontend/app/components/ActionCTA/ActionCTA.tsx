@@ -40,7 +40,7 @@ const ActionCTA = () => {
             toast.loading('Waiting...');
             const { data } = await axios({
                 method: 'post',
-                url: 'http://localhost:8888/api/v1/collection-mail-action-cta',
+                url: '/api/v1/collection-mail-action-cta',
                 data:
                     formValue
             })
@@ -62,7 +62,7 @@ const ActionCTA = () => {
 
     return (
         <div className='w-full min-h-screen h-full bg-[#0b0b0b]'>
-            <PanelSocial color='#2B3235' />
+            <PanelSocial color='white' />
             <Toaster position="bottom-center" reverseOrder={false} />
             <div className='w-full min-h-screen h-full relative py-[30px]'>
             <div className='background-overlay bg-pattern absolute left-0 top-0 w-100 h-100'></div>

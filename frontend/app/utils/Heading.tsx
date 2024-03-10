@@ -18,6 +18,7 @@ const Heading: FC<IHeadProps> = ({ title, description, keywords }) => {
             <meta name="viewport" content='width=device-width, initial-scale=1' />
             {/* <meta name="description" property='og:description' content={description} />
             <meta name="keywords" content={keywords} /> */}
+            <meta property="og:site_name" content="Quizzy" data-rh="true"></meta>
         </>
     );
 };

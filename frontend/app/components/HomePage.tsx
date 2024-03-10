@@ -33,7 +33,7 @@ const HomePage = () => {
                 <div className='1100px:w-[50%] flex justify-center items-center 1100px:px-[50px] md:px-[40px] px-[30px] pb-[30px]'>
                     <div className='flex flex-col gap-10 w-full items-center justify-center'>
                         <Link href={'/zero-to-hero'} className='module-border-wrap rounded-xl items-shadow cursor-pointer flex items-center py-[10px] px-10 w-[100%] justify-center gap-5'>
-                            <div className='module'>
+                            <div className=''>
                                 <h2 className=' text-[white] text-center font-medium md:text-[18px] text-[14px] p-3'>Nhận tài liệu Lộ Trình Social Media Manager Từ Con Số 0 Miễn Phí</h2>
                             </div>
                         </Link>

@@ -20,7 +20,7 @@ export const collectionMailZeroToHero = CatchAsyncError(
             const data  = await mailZeroToHeroModel.create(user);
             await sendMail({
                 email:email,
-                subject: "",
+                subject: "[TÀI LIỆU LỘ TRÌNH SOCIAL MEDIA MANAGER TỪ CON SỐ 0] từ Quizzy Học Marketing",
                 template: "activation-collection-mail-zero-to-hero.ejs",
                 data:user,
             });

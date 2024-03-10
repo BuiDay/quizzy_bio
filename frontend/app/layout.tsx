@@ -18,9 +18,9 @@ const josefin = Josefin_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Quizzy Học Marketing',
-  description:'Kinh nghiệm 2 năm trong lĩnh vực Social Media Marketing, hiện đang là Project Manager tại 1 công ty Canada, từng là Social Media Executive tại Zing News và sỡ hữu hơn 140K followers trên các kênh Social',
-  keywords: ["Quizzy Học Marketing"],
+  title: 'Quizzy Học Marketing | Quizzy Social Media Manager | Templates Free',
+  description:'Kinh nghiệm 2 năm trong lĩnh vực Social Media Marketing, Social Media Manager, hiện đang là Project Manager tại 1 công ty Canada, từng là Social Media Executive tại Zing News và sỡ hữu hơn 140K followers trên các kênh Social',
+  keywords: ["Quizzy Học Marketing | Quizzy Social Media Manager | Templates Free"],
   openGraph: {
     images: 'https://res.cloudinary.com/dlqieazbj/image/upload/v1697019213/hvaspii98y8iqk3zkp64.jpg',
   },
